@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widgetContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/widgetDateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daily Quote"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:textColor="#475569" />
+
+    <TextView
+        android:id="@+id/widgetQuoteText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Open app to load today's quote"
+        android:textSize="15sp"
+        android:textColor="#0F172A"
+        android:maxLines="5" />
+
+</LinearLayout>
